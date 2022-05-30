@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Junior Front-End Web Developer - Portfolio Website</title>
+    <link rel="stylesheet" href="img/fone-min.jpg">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <div class="responsive-menu"><a id="menu-icon" class="icon" href="#"><img src="img/icon.png" alt="image"></a></div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="sidebar">
+                <ul class="nav nav__sidebar flex-column" id="navbar">
+                    <li class="active"><a href="#home" class="page-scroll">Home <span
+                                class="sr-only">(current)</span></a></li>
+                    <li><a href="#about" class="page-scroll">About</a></li>
+                    <li><a href="#skills" class="page-scroll">Skills</a></li>
+                    <li><a href="#education" class="page-scroll">Education</a></li>
+                    <li><a href="#portfolio" class="page-scroll">Portfolio</a></li>
+                    <li><a href="#contact" class="page-scroll">Contact</a></li>
+                </ul>
+            </div>
+            <div class="main">
+                <section id="home" class="home" style="background: url('img/fone-min.jpg');">
+                    <div class="home__overlay"></div>
+                    <div class="home__content">
+                        <h2>Hello I'm</h2>
+                        <h1>Diana Hlushchak</h1>
+                        <div class="typer">
+                            <span class="position">Front-End Developer</span>
+                            <span class="typed-cursor">|</span>
+                        </div>
+                        <a download="CV.pdf" class="download-link"
+                            onclick="Materialize.toast('Resume Download Successfully', 4000, 'rounded')"
+                            data-position="left" data-delay="50" href="CV.pdf">Download My CV <i
+                                class="fa fa-download"></i></a>
+                    </div>
+                </section>
+                <section id="about" class="section">
+                    <div class="section__container">
+                        <div class="section__title">
+                            <h4>About me</h4>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-3 about__foto mb-5 wow slideInLeft animated">
+                                <img src="img/me.jpg" alt="me">
+                            </div>
+                            <div class="col-lg-9">
+                                <div class="row">
+                                    <div class="col-md-6 info-block wow slideInDown animated">
+                                        <div class="info-block__icon"><i class="fa fa-user" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="info-block__text">
+                                            <span>Name</span>
+                                            <p>Diana Hlushchak</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 info-block wow slideInDown animated">
+                                        <div class="info-block__icon"><i class="fa fa-envelope" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="info-block__text">
+                                            <span>Email</span>
+                                            <p>dianka.hlushchak@gmail.com</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 info-block wow slideInUp animated">
+                                        <div class="info-block__icon"><i class="fa fa-volume-control-phone"
+                                                aria-hidden="true"></i></div>
+                                        <div class="info-block__text">
+                                            <span>Phone</span>
+                                            <p>0684664959</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 info-block wow slideInUp animated">
+                                        <div class="info-block__icon"><i class="fa fa-map-marker"
+                                                aria-hidden="true"></i></div>
+                                        <div class="info-block__text">
+                                            <span>Address</span>
+                                            <p>Lviv, Ukraine</p>
+                                        </div>
+                                    </div>
+                                    <div class="about__info">
+                                        <div class="col-sm-12">
+                                            <div class="about__text">
+                                                <p>
+                                                    My name is Diana. I'm new to the world of Web Development and don't
+                                                    have comercial experience, but I really want to get it.
+                                                    I had worked in tourism industry, so I thought web development would
+                                                    be an interesting switch.
+                                                    My experience is about 2 months of self-education and 3 month of
+                                                    courses from Skill Up company.
+                                                </p>
+                                                <p>I have knowledge of HTML, CSS and JavaScript language and possess a
+                                                    good knowledge of computer software packages (frameworks and tools)
+                                                    that are used in today’s technology.
+
+                                                    On a personal level, I am highly-motivated, result oriented,
+                                                    self-driven, hard-working, fat learner and constantly seeking to
+                                                    improve my skills and am fully aware of the latest Front-end
+                                                    Development Tools.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="skills" class="section">
+                    <div class="section__container">
+                        <div class="section__title">
+                            <h4>Skills</h4>
+                        </div>
+                        <div class="skills__technical">
+                            <div class="row d-md-flex">
+                                <div class="col-md-3 col-sm-6 wow flipInX animated slow">
+                                    <img src="img/html5.png" alt="html" data-toggle="tooltip" title="HTML5">
+                                </div>
+                                <div class="col-md-3 col-sm-6 wow flipInX animated slow">
+                                    <img src="img/css3.png" alt="css" data-toggle="tooltip" title="CSS3">
+                                </div>
+                                <div class="col-md-3 col-sm-6 wow flipInX animated slow">
+                                    <img src="img/js.png" alt="js" data-toggle="tooltip" title="JavaScript">
+                                </div>
+                                <div class="col-md-3 col-sm-6 wow flipInX animated slow">
+                                    <img src="img/Jquery.png" alt="Jquery" data-toggle="tooltip" title="Jquery">
+                                </div>
+                            </div>
+                            <div class="row d-md-flex">
+                                <div class="col-md-3 col-sm-6 wow flipInX animated slow">
+                                    <img src="img/react.png" alt="Angular" data-toggle="tooltip" title="React">
+                                </div>
+                                <div class="col-md-3 col-sm-6 wow flipInX animated slow">
+                                    <img src="img/Sass.png" alt="sass" data-toggle="tooltip" title="SASS">
+                                </div>
+                                <div class="col-md-3 col-sm-6 wow flipInX animated slow">
+                                    <img src="img/Bootstrap.png" alt="Bootstrap" data-toggle="tooltip"
+                                        title="Bootstrap4">
+                                </div>
+                                <div class="col-md-3 col-sm-6 wow flipInX animated slow">
+                                    <img src="img/Git.png" alt="Git" data-toggle="tooltip" title="Git">
+                                </div>
+                            </div>
+                            <div class="row d-md-flex">
+                                <div class="col-md-3 col-sm-6 wow flipInX animated slow">
+                                    <img src="img/webpack.png" alt="js" data-toggle="tooltip" title="Webpack">
+                                </div>
+                                <div class="col-md-3 col-sm-6 wow flipInX animated slow">
+                                    <img src="img/gulp.png" alt="js" data-toggle="tooltip" title="Gulp">
+                                </div>
+                                <div class="col-md-3 col-sm-6 wow flipInX animated slow">
+                                    <img src="img/nodeJs.png" alt="js" data-toggle="tooltip" title="NodeJS">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill__languages mt-5">
+                            <h4>LANGUAGE SKILLS & KNOWLEDGE</h4>
+                            <div class="row">
+                                <div class="col-sm-4 language wow zoomIn animated">
+                                    <img src="img/english2.png" alt="" data-toggle="tooltip" title="English">
+                                    <span class="language__level">Intermediate</span>
+                                </div>
+                                <div class="col-sm-4 language wow zoomIn animated">
+                                    <img src="img/russian2.png" alt="" data-toggle="tooltip" title="Русский">
+                                    <span class="language__level">Fluent</span>
+                                </div>
+                                <div class="col-sm-4 language wow zoomIn animated" data-toggle="tooltip"
+                                    title="Español">
+                                    <img src="img/espanol2.png" alt="">
+                                    <span class="language__level">Beginner</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="education" class="section">
+                    <div class="section__container">
+                        <div class="section__title">
+                            <h4>Education</h4>
+                        </div>
+                        <div class="row">
+                            <div class="education__timeline wow zoomIn animated">
+                                <div class="row">
+                                    <div class="education__name">
+                                        <h5>SkillUp learning center</h5>
+                                        <p>Front End development course (HTML5, CSS3, JavaScript, jQuery,
+                                            Angular6)</p>
+                                        <p class="education__date">May 2019 - Aug 2019</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="education__name">
+                                        <h5>Master Degree at Ivan Franko Lviv National University</h5>
+                                        <p>Faculty of Geography, Department of Tourism</p>
+                                        <p class="education__date">2018 - 2019</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="education__name">
+                                        <h5 class="mb-3">Bachelor Degree at Ivan Franko Lviv National University</h5>
+                                        <p>Faculty of Geography, Department of Tourism</p>
+                                        <p class="education__date">2014 - 2018</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </section>
+                <section id="portfolio" class="section wow zoomIn animated">
+                    <div class="section__container">
+                        <div class="section__title">
+                            <h4>Portfolio</h4>
+                        </div>
+                        <div class="row">
+                            <div class="portfolio__item col-md-4 col-sm-6 wow jackInTheBox animated">
+                                <div class="image-box">
+                                    <div class="item-container">
+                                        <img src="img/sites/Axit.jpg" alt="">
+                                        <a href="https://github.com/Diankaa/Axit" class="item-link github"
+                                            target="_blank" data-toggle="tooltip" title="Github">
+                                            <i class="fa fa-github"></i></i>
+                                        </a>
+                                        <a href="https://diankaa.github.io/Axit/" class="item-link link"
+                                            target="_blank" data-toggle="tooltip" title="Link">
+                                            <i class="fa fa-link"></i>
+                                        </a>
+                                        <div class="overlay"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio__item col-md-4 col-sm-6 wow swing animated">
+                                <div class="image-box">
+                                    <div class="item-container">
+                                        <img src="img/sites/logo.jpg" alt="">
+                                        <a href="https://github.com/Diankaa/logo" class="item-link github"
+                                            target="_blank" data-toggle="tooltip" title="Github">
+                                            <i class="fa fa-github"></i></i>
+                                        </a>
+                                        <a href="https://diankaa.github.io/logo/" class="item-link link"
+                                            target="_blank" data-toggle="tooltip" title="Link">
+                                            <i class="fa fa-link"></i>
+                                        </a>
+                                        <div class="overlay"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio__item col-md-4 col-sm-6 wow jackInTheBox animated">
+                                <div class="image-box">
+                                    <div class="item-container">
+                                        <img src="img/sites/bakery.jpg" alt="">
+                                        <a href="https://github.com/Diankaa/gustoso" class="item-link github"
+                                            target="_blank" data-toggle="tooltip" title="Github">
+                                            <i class="fa fa-github"></i></i>
+                                        </a>
+                                        <a href="https://diankaa.github.io/gustoso/" class="item-link link"
+                                            target="_blank" data-toggle="tooltip" title="Link">
+                                            <i class="fa fa-link"></i>
+                                        </a>
+                                        <div class="overlay"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio__item col-md-4 col-sm-6 wow jackInTheBox animated">
+                                <div class="image-box">
+                                    <div class="item-container">
+                                        <img src="img/sites/movie-app.jpg" alt="">
+                                        <a href="https://github.com/Diankaa/movie-app" class="item-link github"
+                                            target="_blank" data-toggle="tooltip" title="Github">
+                                            <i class="fa fa-github"></i></i>
+                                        </a>
+                                        <a href="https://diankaa.github.io/movie/#/" class="item-link link"
+                                            target="_blank" data-toggle="tooltip" title="Link">
+                                            <i class="fa fa-link"></i>
+                                        </a>
+                                        <div class="overlay"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio__item col-md-4 col-sm-6 wow jackInTheBox animated">
+                                <div class="image-box">
+                                    <div class="item-container">
+                                        <img src="img/sites/shop.jpg" alt="">
+                                        <a href="https://github.com/Diankaa/Vegefood" class="item-link github"
+                                            target="_blank" data-toggle="tooltip" title="Github">
+                                            <i class="fa fa-github"></i></i>
+                                        </a>
+                                        <a href="https://diankaa.github.io/Vegefood/index.html" class="item-link link"
+                                            target="_blank" data-toggle="tooltip" title="Link">
+                                            <i class="fa fa-link"></i>
+                                        </a>
+                                        <div class="overlay"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio__item col-md-4 col-sm-6 wow swing animated">
+                                <div class="image-box">
+                                    <div class="item-container">
+                                        <img src="img/sites/game.jpg" alt="">
+                                        <a href="https://github.com/Diankaa/memory-game" class="item-link github"
+                                            target="_blank" data-toggle="tooltip" title="Github">
+                                            <i class="fa fa-github"></i></i>
+                                        </a>
+                                        <a href="https://diankaa.github.io/memory-game/" class="item-link link"
+                                            target="_blank" data-toggle="tooltip" title="Link">
+                                            <i class="fa fa-link"></i>
+                                        </a g>
+                                        <div class="overlay"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio__item col-md-4 col-sm-6 wow jackInTheBox animated">
+                                <div class="image-box">
+                                    <div class="item-container">
+                                        <img src="img/sites/calculator.jpg" alt="">
+                                        <a href="https://github.com/Diankaa/calculator" class="item-link github"
+                                            target="_blank" data-toggle="tooltip" title="Github">
+                                            <i class="fa fa-github"></i></i>
+                                        </a>
+                                        <a href="https://diankaa.github.io/calculator/" class="item-link link"
+                                            target="_blank" data-toggle="tooltip" title="Link">
+                                            <i class="fa fa-link"></i>
+                                        </a>
+                                        <div class="overlay"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio__item col-md-4 col-sm-6 wow jackInTheBox animated">
+                                <div class="image-box">
+                                    <div class="item-container">
+                                        <img src="img/sites/sever.jpg" alt="">
+                                        <a href="https://github.com/Diankaa/sever" class="item-link github"
+                                            target="_blank" data-toggle="tooltip" title="Github">
+                                            <i class="fa fa-github"></i></i>
+                                        </a>
+                                        <a href="https://diankaa.github.io/sever/" class="item-link link"
+                                            target="_blank" data-toggle="tooltip" title="Link">
+                                            <i class="fa fa-link"></i>
+                                        </a>
+                                        <div class="overlay"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="contact" class="contact section wow rotateInUpLeft animated">
+                    <div class="section__container">
+                        <div class="section__title">
+                            <h4>Contact</h4>
+                        </div>
+                        <div class="row">
+                            <div class="info col-lg-5">
+                                <div class="info-block">
+                                    <div class="info-block__icon"><i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="info-block__text">
+                                        <span>Address</span>
+                                        <p>39 Medovoi Pechery , Lviv, Ukraine
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="info-block">
+                                    <div class="info-block__icon"><i class="fa fa-volume-control-phone"
+                                            aria-hidden="true"></i></div>
+                                    <div class="info-block__text">
+                                        <span>Phone</span>
+                                        <p>0684664959</p>
+                                    </div>
+                                </div>
+                                <div class="info-block">
+                                    <div class="info-block__icon"><i class="fa fa-envelope" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="info-block__text">
+                                        <span>Email</span>
+                                        <p>dianka.hlushchak@gmail.com</p>
+                                    </div>
+                                </div>
+                                <div class="info-block">
+                                    <div class="info-block__icon"><i class="fa fa-home" aria-hidden="true"></i></div>
+                                    <div class="info-block__text">
+                                        <span>Website</span>
+                                        <p><a href="https://github.com/Diankaa" target="_blank">Diankaa</a></p>
+                                    </div>
+                                </div>
+                                <div class="info-block">
+                                    <div class="info-block__icon"><i class="fa fa-skype" aria-hidden="true"></i></div>
+                                    <div class="info-block__text">
+                                        <span>Skype</span>
+                                        <p>diana.hlushchak</p>
+                                    </div>
+                                </div>
+                                <div class="info-block">
+                                    <div class="info-block__icon"><i class="fa fa-facebook"></i></div>
+                                    <div class="info-block__text">
+                                        <span>Facebook</span>
+                                        <p> <a href="https://www.facebook.com/dianka.hl" target="_blank">Diana Hlushchak</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="map col-lg-7">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.887591281045!2d24.07529961522!3d49.82577787939402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ac2b1b133e2ff%3A0x7c0d414b035e0380!2z0YPQuy4g0JzQtdC00L7QstC-0Lkg0J_QtdGH0LXRgNGLLCAzOSwg0JvRjNCy0L7Qsiwg0JvRjNCy0L7QstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCA3OTAwMA!5e0!3m2!1sru!2sua!4v1580061242769!5m2!1sru!2sua"
+                                    width="100%" height="100%" frameborder="0" style="border:0;"
+                                    allowfullscreen=""></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
